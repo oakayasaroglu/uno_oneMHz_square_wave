@@ -5,7 +5,7 @@ This code generates 1 MHz Square Wave for 16 MHz Arduino UNO's. 12th pin is the 
 
 ![Arduino UNO output](images/a.jpg)
 
-This signal has some ringing effect because I didn't adjust the right empedance of the gpio and there isn't any load at the end of the circuit. After fixing these issues, the ringing effect will be gone.
+This signal has some ringing effect because I didn't adjust the right empedance of the GPIO and there isn't any load at the end of the circuit. After fixing these issues, the ringing effect will be gone.
 
 ## b. How It Works
 With a simple calculation, 1 MHz frequencies period is 1 µS. For each square wave signals has been created with half of a period is HIGH signal, then half of a period is LOW signal. 
